@@ -24,12 +24,17 @@ html {
 }
 
 body {
-    margin-bottom: 0;
-    background: url("/images/bg-full-screen.png") no-repeat;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Kanit
-}
+    margin-bottom: 0; 
+    font-family: Kanit;
+    background-color: #1a2258;
+} 
+@media (min-width: 786px) {
+    body {
+        background: url("/images/bg-full-screen.png") no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+} 
 
 
 .main {
@@ -44,10 +49,8 @@ body {
 .edge-logo {
     background: url("/images/EDGE_LOGO-03 2.png") no-repeat center;
     background-position: left;
-    height: 32px;
-    /*margin-left: 10px;*/
-}
-
+    height: 32px; 
+} 
 .centered {
     position: fixed;
     top: 50%;
@@ -70,6 +73,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+
 .form-label{
     font-size:0.9em;
 }
