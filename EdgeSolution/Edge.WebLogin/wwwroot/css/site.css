@@ -28,28 +28,25 @@ body {
     font-family: Kanit;
     background-color: #1a2258;
 } 
+.edge-logo {
+    background: url("/images/EDGE_LOGO-03 2.png") no-repeat center;
+    background-position: center;
+    height: 32px; 
+}
+
 @media (min-width: 786px) {
     body {
         background: url("/images/bg-full-screen.png") no-repeat;
         background-repeat: no-repeat;
         background-size: cover;
     }
-} 
 
+    .edge-logo {
+        background-position: left;
+    }
+}
 
 .main {
-}
-
-.edge-logo-mobile {
-    background: url("/images/EDGE_LOGO-03 2.png") no-repeat center;
-    background-position: center;
-    height: 32px;
-}
-
-.edge-logo {
-    background: url("/images/EDGE_LOGO-03 2.png") no-repeat center;
-    background-position: left;
-    height: 32px; 
 } 
 .centered {
     position: fixed;
