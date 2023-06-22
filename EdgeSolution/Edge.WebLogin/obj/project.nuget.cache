@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "knxkqoKVbg1YC5jHKUCNUXDWcw/1wl1blykI7gSXdyg9wiee3jqDLFzCAEAUUl8zTf560nIPKmGZn0GEc5XzNg==",
+  "dgSpecHash": "SuuPdBSks6xruP5Gik6adLUPRlmU44Uv7LsblOdFdKgeISg2a2+hX2SqKU9cOI9GORyJc9tldJLFteyWHKZzGA==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Edge-Login\\EdgeSolution\\Edge.WebLogin\\Edge.WebLogin.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lonlekor\\.nuget\\packages\\bootstrap\\5.3.0\\bootstrap.5.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

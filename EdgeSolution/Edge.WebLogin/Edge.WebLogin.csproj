@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="contents\" />
+  </ItemGroup>
+
 </Project>

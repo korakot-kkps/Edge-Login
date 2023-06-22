@@ -1,22 +1,141 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+}
+
+.img-bullet {
+    background: url("/images/EDGE-Bullet.png") no-repeat;
+    background-repeat: no-repeat;
+    height: 10px;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 0;
+    background: url("/images/bg-full-screen.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Kanit
+}
+
+
+.main {
+}
+
+.edge-logo-mobile {
+    background: url("/images/EDGE_LOGO-03 2.png") no-repeat center;
+    background-position: center;
+    height: 32px;
+}
+
+.edge-logo {
+    background: url("/images/EDGE_LOGO-03 2.png") no-repeat center;
+    background-position: left;
+    height: 32px;
+    /*margin-left: 10px;*/
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top-left{
+
+}
+.form-login {
+    padding: 6em 2em 0 2em;
+    border-radius: 20px;
+    max-width: 536px;
+    max-height: 654px;
+    width: 85%;
+    margin-top: 50px;
+    background: url("/images/background-pop-up.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.form-label{
+    font-size:0.9em;
+}
+.login-content {
+}
+#link-forgotpassword{
+    margin-top:5px;
+    margin-bottom:20px;
+}
+#btnLogin, #btnOpenAccount {
+    height: 3em;
+    font-size: 0.9em;
+}
+
+.corner-rounded-20px {
+    border-radius: 20px;
+}
+
+.bg-orange {
+    background-color: #f4572d;
+    color: whitesmoke;
+    border: none;
+    font-size: 1em;
+}
+
+.bg-transparent {
+    background-color: transparent;
+    color: darkgray;
+    border: 1px solid lightgray;
+}
+
+.font-color-navy {
+    color: #3b4b99;
+}
+
+.font-color-navy-dark {
+    color: #121b40;
+}
+
+.font-color-orange {
+    color: #f15b38;
+}
+
+.font-color-gray {
+    color: #a6a9bb;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.font-1em {
+    font-size: 1em;
+}
+
+.font-small-1 {
+    font-size: 0.7em; 
+}
+
+.font-small-2 {
+    font-size: 0.6em; 
+}
+.div-height-10{
+    height: 10px;
 }

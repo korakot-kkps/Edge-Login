@@ -1,8 +1,42 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Sign in";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="main">
+    <div class="edge-logo row d-none d-sm-block">
+    </div>
+    <div class="edge-logo-mobile row d-block d-sm-none">
+    </div>
+    <div class="form-login centered">    
+        <div class="login-content row">
+            <div class="mb-3">      
+                <div class="img-bullet" ></div>
+                <div class="div-height-10"></div>
+                <span class="font-color-navy small">Welcome to EDGE</span>
+                <div class="div-height-10"></div>
+                <h4 class="font-color-navy-dark">Sign in</h4>
+                <br />
+            </div>
+            <div class="mb-3">
+                <label for="username" class="form-label font-color-navy ">Enter your username</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Username">
+                <br />
+            </div> 
+            <div class="mb-3">
+                <label for="password" class="form-label font-color-navy ">Enter your password</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Password">
+                <a id="link-forgotpassword" class="font-color-orange float-right font-small-1">Forgot Password</a> 
+            </div>       
+            <div class="mb-3">
+                <input id="btnLogin" type="button" value="Sign in" class="w-100 bg-orange corner-rounded-20px" />
+            </div>
+            <div class="mb-3">
+                <input id="btnOpenAccount" type="button" value="Open Investment Account" class="w-100 bg-transparent corner-rounded-20px" />      
+            </div>
+            <div class="mb-3 text-align-center footer">
+                <br />
+                <p class="font-color-gray font-small-2">Username และ Password สำหรับ Login เช้าใช้งานผ่านระบบ KKPS</p>
+            </div>
+        </div>
+    </div>
 </div>
+
