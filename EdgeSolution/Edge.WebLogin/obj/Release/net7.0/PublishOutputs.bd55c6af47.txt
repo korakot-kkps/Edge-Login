@@ -1,0 +1,7 @@
+C:\GitHub\Edge-Login\EdgeSolution\Edge.WebLogin\obj\Release\net7.0\PubTmp\Out\Edge.WebLogin.exe
+C:\GitHub\Edge-Login\EdgeSolution\Edge.WebLogin\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\GitHub\Edge-Login\EdgeSolution\Edge.WebLogin\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\GitHub\Edge-Login\EdgeSolution\Edge.WebLogin\obj\Release\net7.0\PubTmp\Out\Edge.WebLogin.dll
+C:\GitHub\Edge-Login\EdgeSolution\Edge.WebLogin\obj\Release\net7.0\PubTmp\Out\Edge.WebLogin.deps.json
+C:\GitHub\Edge-Login\EdgeSolution\Edge.WebLogin\obj\Release\net7.0\PubTmp\Out\Edge.WebLogin.runtimeconfig.json
+C:\GitHub\Edge-Login\EdgeSolution\Edge.WebLogin\obj\Release\net7.0\PubTmp\Out\Edge.WebLogin.pdb
